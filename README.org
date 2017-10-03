@@ -1,0 +1,19 @@
+* Example showing dom manipulation with @cleanlang
+
+** Setup
+#+BEGIN_SRC bash
+npm install cleanlang -g
+#+END_SRC
+  - for further instructions refer [[https://github.com/cleanlang/clean#cleanlang][here]]
+
+** Steps
+#+BEGIN_SRC bash
+clean fact.cl -o fact.js
+#+END_SRC
+  - include this fact.js in =public/js=
+  - python app.py
+  - open [[http://127.0.0.1:8000][http://127.0.0.1:8000]]
+
+** Dependencies
+   - python3.5+
+   - npm
