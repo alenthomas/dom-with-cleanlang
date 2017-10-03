@@ -11,7 +11,9 @@ npm install cleanlang -g
 clean fact.cl -o fact.js
 #+END_SRC
   - include this fact.js in =public/js=
-  - python app.py
+#+BEGIN_SRC bash
+python app.py
+#+END_SRC
   - open [[http://127.0.0.1:8000][http://127.0.0.1:8000]]
 
 ** Dependencies
